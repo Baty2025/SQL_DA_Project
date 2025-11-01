@@ -1,0 +1,18 @@
+---
+title: "Connect_dbase2R"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+# Packages
+
+```{r}
+
+# install.packages(c("DBI","RSQLite","dbplyr","odbc"))
+library(DBI)
+library(RSQLite)
+library(dplyr)
+library(odbc)
+```
